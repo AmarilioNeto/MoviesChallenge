@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\Coding.Challenge.API.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\Coding.Challenge.API.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Coding.Challenge.API.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coding.Challenge.Dependencies\Coding.Challenge.Dependencies.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net8.0\" />
+    <Folder Include="obj\Debug\net8.0\refint\" />
+    <Folder Include="obj\Debug\net8.0\ref\" />
+    <Folder Include="obj\Debug\net8.0\staticwebassets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Coding.Challenge.API.csproj.nuget.g.props" />
+    <None Include="obj\Coding.Challenge.API.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net8.0\Coding.Challenge.API.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\Coding.Challenge.API.assets.cache" />
+    <None Include="obj\Debug\net8.0\Coding.Challenge.API.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\Coding.Challenge.API.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>
